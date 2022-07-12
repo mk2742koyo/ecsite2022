@@ -1,0 +1,11 @@
+---
+pagination:
+  data: products
+  size: 1
+permalink: 'goods/{{ pagination.items[0].url | slugify }}/'  
+---
+
+<ul>
+	<li>{{ pagination.items[0].name }}</li>
+	<li>{{ pagination.items[0].price }}</li>
+</ul>
