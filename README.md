@@ -5,7 +5,7 @@
 2022 年度 Web デザイン学科 WS1「JavaScript 演習」課題 SSG で EC サイト初期データ
 
 ## 完成品
-
+https://koyo-ktkhog231.namaste.jp/_site/
 <!-- 完成後、ここにURLを貼ってください。-->
 
 ## Features
