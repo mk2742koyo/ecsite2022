@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'asobi';
+    src: url('../font/AsobiMemogaki-Regular-1-01.ttf') format('truetype');
+    }
+
+body{
+    font-family: 'asobi';
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: block;
+    width: 30%;
+}
+.goodsmain{
+    max-width: 300px;
+}
+.goodslist{
+    max-width: 150px;
+}
+.mainimage{
+    width: 100%;
+}
+
+.shouhin{
+    width: 100%;
+}
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+.remove{
+    display: none;
+  }
+  
+h2{
+    margin: 100px 0 50px;
+}
+  
+.zaiko{
+    padding: 6px;
+    width: 100px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+  }
+
+.icon{
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+
+.header_img{
+    width: 100%;
+}
+
+button{
+    font-family: "asobi";
+}
+
+.btn_div {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 180px;
+    width: 100px;
+}
+
+h1{
+    font-size:50px;
+}
+
+.menu > p{
+    font-size: 18px;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex: content;
+    justify-content: space-between;
+}
+
+small{
+    text-align: center;
+}
+
+footer{
+    padding-top: 80px;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    font-size: 50px;
+}
+
+.sise {
+    font-family: "asobi";
+    
+}
+
+.kobetu{
+    display: flex;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.sentaku{
+    display: flex;
+}
+
+.setumei{
+    margin: 50px 30px;
+}
+
+.kounyuu{
+    margin-top: 60px;
+}
+
+.shashin{
+    margin-right: 50px;
+}

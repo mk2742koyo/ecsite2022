@@ -1,0 +1,44 @@
+---
+
+title: うわのそらマート
+layout: layout.njk
+csspath: ./css/
+jspath: ./js/
+
+---
+
+	<header>
+		<div class="menu">
+			<h1>うわのそらマート</h1>
+			<p>ほーむ</p>
+			<p>ぷろふぃーる</p>
+			<div class="icon">
+				<a href=""><img class="icon" src="./images/shopping.png" alt=""></a>
+		</div>
+		</div>
+		<div><a href=""><img class="header_img" src="./images/headerimg.png" alt=""></a></div>
+	</header>
+<!-- 各sectionをループで作成 -->
+<main>
+<div class="inner">
+	<div class="flex">
+	{% for topPhoto in products %}
+	<section class="content">
+		<h2>{{ topPhoto.name }}</h2>
+		<div class="mainimage">
+			<a href="./products/{{topPhoto.url}}"><img class="shouhin" src="./images/{{topPhoto.url}}.png"></a>
+		</div>
+		<p class="price">{{ topPhoto.price }}えん</p>
+		<p class="zaiko">{{ topPhoto.state }}</p>
+		
+	</section>
+	{% endfor %}
+	</div>
+	<div class="btn_div">
+	<button class="btn"><p>もっと見る</p></button>
+	</div>
+</div>
+</main>
+<footer>
+	<small><p>copylight</p></small>
+</footer>

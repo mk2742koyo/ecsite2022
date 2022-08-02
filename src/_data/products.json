@@ -1,33 +1,142 @@
 [
     {
         "itemphotos": [
-            "umaibo01.jpg",
-            "umaibo02.jpg",
-            "umaibo03.jpg"
+            "awasemiso.png",
+            "awasemiso2.png"
         ],
-        "name": "うまい棒サラミ味",
-        "price": 12,
-        "state": "TRUE",
-        "text": "スパイスとスモークのきいたサラミスティックをうまい棒で再現しました。",
-        "id": 27002,
-        "colors": "黄色",
-        "maker": "（株）やおきん",
-        "url": "umaibo"
+        "name": "あわせみそん",
+        "price": 3000,
+        "state": true,
+        "text": "合わせ味噌の味噌汁の服です。",
+        "id": "200207-1",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "awasemiso"
     },
     {
         "itemphotos": [
-            "yochan01.jpg",
-            "yochan02.jpg",
-            "yochan03.jpg",
-            "yochan04.jpg"
+            "fakkingu.png",
+            "fakkingu2.png"
         ],
-        "name": "カットよっちゃん（よっちゃんイカ）",
-        "price": 50,
-        "state": "FALSE",
-        "text": "世界中から厳選したイカと、日本近海で獲れたタラのすり身を主に使用した魚肉シートを食べやすい一口サイズにカットし、秘伝の調味でさっぱりとした酢味に仕上げました。",
-        "id": "4710158-2",
-        "colors": "赤",
-        "maker": "よっちゃん食品工業（株）",
-        "url": "yocchan"
+        "name": "ふぁっきんぐー",
+        "price": 2800,
+        "state": false,
+        "text": "中指を立てる服です。街中で歩くときは周囲に配慮しながら来てください。",
+        "id": "200207-2",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "fakkingu"
+    },
+    {
+        "itemphotos": [
+            "gyoza.png",
+            "gyoza2.png"
+        ],
+        "name": "おうしょうお",
+        "price": 3200,
+        "state": true,
+        "text": "かの有名な教師が好きな王将の餃子の服です。",
+        "id": "200207-3",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "gyoza"
+    },
+    {
+        "itemphotos": [
+            "husen.png",
+            "husen2.png"
+        ],
+        "name": "ふうせんぼ",
+        "price": 2800,
+        "state": false,
+        "text": "風船の服です。",
+        "id": "200207-4",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "husen"
+    },
+    {
+        "itemphotos": [
+            "kabuto.png",
+            "kabuto2.png"
+        ],
+        "name": "かぶとろす",
+        "price": 2800,
+        "state": true,
+        "text": "カブトムシの服です。夏限定と着飾りたいものです。",
+        "id": "200207-5",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "kabuto"
+    },
+    {
+        "itemphotos": [
+            "obakechan.png",
+            "obakechan2.png"
+        ],
+        "name": "オバケちゃん",
+        "price": 4000,
+        "state": true,
+        "text": "オバケちゃんの服です。我が社のメインキャラクターです。",
+        "id": "200207-6",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "obakechan"
+    },
+    {
+        "itemphotos": [
+            "onpu.png",
+            "onpu2.png"
+        ],
+        "name": "おんぷんぷん",
+        "price": 3800,
+        "state": true,
+        "text": "音符の服です。ライブに来ていくと100倍盛り上がりそうです。",
+        "id": "200207-7",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "onpu"
+    },
+    {
+        "itemphotos": [
+            "pankeki.png",
+            "pankeki2.png"
+        ],
+        "name": "ぱんけーきっく",
+        "price": 2800,
+        "state": true,
+        "text": "パンケーキの服です。美味しいです（布味）。",
+        "id": "200207-8",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "pankeki"
+    },
+    {
+        "itemphotos": [
+            "soramame.png",
+            "soramame2.png"
+        ],
+        "name": "そらまめっち",
+        "price": 3300,
+        "state": true,
+        "text": "そらまめの服です。枝豆じゃないです。",
+        "id": "200207-9",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "soramame"
+    },
+    {
+        "itemphotos": [
+            "unikun.png",
+            "unikun2.png"
+        ],
+        "name": "うにくん",
+        "price": 3500,
+        "state": false,
+        "text": "うにくんの服です。彼も頑張って生きています。",
+        "id": "200207-10",
+        "colors": "白と黄緑色",
+        "maker": "（株）津々浦浦浦",
+        "url": "unikun"
     }
 ]

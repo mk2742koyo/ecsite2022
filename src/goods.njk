@@ -1,11 +1,46 @@
 ---
+title: ショップページ
+layout: layout.njk
 pagination:
   data: products
   size: 1
-permalink: 'goods/{{ pagination.items[0].url | slugify }}/'  
+  alias: product
+permalink: 'products/{{ pagination.items[0].url | slugify }}/'
+csspath: ../../css/
+jspath: ../../js
+
 ---
 
+
+<div class="kobetu">
+  <div class="shashin">
+<img class="goodsmain" src="../../images/{{product.itemphotos[0]}}" alt="">
+
+
+
+<!--  画像をループで取得 -->
+<div class="sentaku">
+{% for photo in product.itemphotos %}
+<img class="goodslist" src="../../images/{{ photo }}" />
+{% endfor %}
+</div>
 <ul>
-	<li>{{ pagination.items[0].name }}</li>
-	<li>{{ pagination.items[0].price }}</li>
+	<li>{{ product.name }}</li>
+	<li>{{ product.price }}えん</li>
 </ul>
+</div>
+<div class="setumei">
+<p>{{ product.text }}</p>
+<p>{{ product.id }}</p>
+<p>{{ product.colors }}</p>
+<select name="sise">
+<option><p>Sサイズ</p></option>
+<option><p>Mサイズ</p></option>
+<option><p>Lサイズ</p></option>
+<option><p>XLサイズ</p></option>
+  </select>
+<button class="kounyuu"><p>購入</p></button>
+</div>
+
+
+</div>
